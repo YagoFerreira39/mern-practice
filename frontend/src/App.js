@@ -19,7 +19,11 @@ function App() {
           </Routes>
         </div>
       </Router>
-      <ToastContainer />
+      <ToastContainer
+        position="bottom-right"
+        hideProgressBar={false}
+        pauseOnHover
+      />
     </>
   );
 }
