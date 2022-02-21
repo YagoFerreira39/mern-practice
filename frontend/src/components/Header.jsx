@@ -14,8 +14,6 @@ function Header() {
     navigate('/')
   }
 
-  console.log("USER", user)
-
   return (
     <header className='header'> 
       <div className="log">

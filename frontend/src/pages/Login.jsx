@@ -30,7 +30,7 @@ function Login() {
       navigate('/')
     }
 
-    dispatch(reset)
+    dispatch(reset())
   }, [user, isError, isSuccess, message, navigate, dispatch])
 
   /** Functions */
@@ -77,7 +77,7 @@ function Login() {
           </div>
           <div className="form-group">
             <input 
-              type="text" 
+              type="password" 
               className="form-control" 
               id="password" 
               name="password" 
